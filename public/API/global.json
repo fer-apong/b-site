@@ -1,0 +1,122 @@
+[
+  {
+    "iconName": "house-fill",
+    "title": "首页",
+    "id": "pagehome",
+    "url": "javascript:void(0)",
+    "subItem": []
+  },
+  {
+    "iconName": "newspaper",
+    "title": "资讯",
+    "id": "pageblog",
+    "url": "javascript:void(0)",
+    "subItem": []
+  },
+  {
+    "iconName": "display",
+    "title": "关于",
+    "id": "pagebrief",
+    "url": "javascript:void(0)",
+    "subItem": []
+  },
+  {
+    "iconName": "gem",
+    "title": "产品",
+    "id": "pageproducts",
+    "url": "javascript:void(0)",
+    "subItem": [
+      {
+        "subTitle": "精益生产",
+        "subUrl": "javascript:void(0)"
+      },
+      {
+        "subTitle": "云管理",
+        "subUrl": "javascript:void(0)"
+      },
+      {
+        "subTitle": "微信平台开发",
+        "subUrl": "javascript:void(0)"
+      },
+      {
+        "subTitle": "移动APP开发",
+        "subUrl": "javascript:void(0)"
+      },
+      {
+        "subTitle": "Web应用",
+        "subUrl": "javascript:void(0)"
+      },
+      {
+        "subTitle": "IDC代理",
+        "subUrl": "javascript:void(0)"
+      },
+      {
+        "subTitle": "经典案例",
+        "subUrl": "javascript:void(0)"
+      }
+    ]
+  },
+  {
+    "iconName": "puzzle",
+    "title": "解决方案",
+    "id": "pagesolution",
+    "url": "javascript:void(0)",
+    "subItem": [
+      {
+        "subTitle": "制造业精益生产管理",
+        "subUrl": "javascript:void(0)"
+      },
+      {
+        "subTitle": "仓储物流体系管理",
+        "subUrl": "javascript:void(0)"
+      },
+      {
+        "subTitle": "企业内部智能管理",
+        "subUrl": "javascript:void(0)"
+      }
+    ]
+  },
+  {
+    "iconName": "suit-heart",
+    "title": "服务",
+    "id": "pageservice",
+    "url": "javascript:void(0)",
+    "subItem": [
+      {
+        "subTitle": "技术资料",
+        "subUrl": "javascript:void(0)"
+      },
+      {
+        "subTitle": "常见问题",
+        "subUrl": "javascript:void(0)"
+      },
+      {
+        "subTitle": "在线问答",
+        "subUrl": "javascript:void(0)"
+      }
+    ]
+  },
+  {
+    "iconName": "person-check",
+    "title": "人力资源",
+    "id": "pagehr",
+    "url": "javascript:void(0)",
+    "subItem": [
+      {
+        "subTitle": "职位招聘",
+        "subUrl": "javascript:void(0)"
+      },
+      {
+        "subTitle": "人才储备",
+        "subUrl": "javascript:void(0)"
+      }
+    ]
+  },
+  {
+    "iconName": "geo-alt",
+    "title": "联系",
+    "id": "pagecontact",
+    "url": "javascript:void(0)",
+    "subItem": []
+  }
+]

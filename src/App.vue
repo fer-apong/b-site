@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <NavBar :navData=navData></NavBar>
+    <NavBar :dataNav="dataNav"></NavBar>
 
   </div>
 </template>
@@ -8,7 +8,7 @@
 // @ is an alias to /src
 import NavBar from 'components/common/NavBar'
 
-import globalData from '../public/local/data'
+import{ localRequest} from 'network/request'
 
 export default {
   name: 'App',
@@ -17,8 +17,21 @@ export default {
   },
   data(){
     return {
-      navData: globalData
+      dataNav: [],
     }
+  },
+  methods: {
+    getDataNav () {
+      localRequest('global.json').then((result) => {
+        this.dataNav = result;
+        console.log(this.dataNav)
+      }).catch((err) => {
+        console.log(err)
+      })
+    }
+  },
+  mounted() {
+    this.getDataNav()
   },
 }
 </script>
